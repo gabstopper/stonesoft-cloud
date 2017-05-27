@@ -6,4 +6,5 @@
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fgabstopper%2Fstonesoft-cloud%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
-Example Azure template deployment for Stonesoft NGFW
+
+Example template to deploy Stonesoft NGFW to Microsoft Azure in a single legged interface, two networks and NAT.
