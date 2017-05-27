@@ -1,0 +1,31 @@
+{
+    "engineUsername": {
+        "type": "string",
+        "metadata": {
+        "description" : "Engine username"
+        }
+    },
+    "sshKey": {
+        "type": "string",
+        "metadata": {
+            "description" : "Engine username public ssh key"
+        }
+    },
+    "engineVMSize": {
+        "type": "string",
+        "allowedValues": [
+            "Standard_DS2"
+        ],
+        "defaultValue": "Standard_DS2",
+        "metadata":
+        {
+            "description" : "Size of the VM used by Engine"
+        }
+    },
+    "engineCfg" : {
+        "type": "string",
+        "metadata": {
+            "description" : "base64 encoded engine.cfg content"
+        }
+    }
+}
