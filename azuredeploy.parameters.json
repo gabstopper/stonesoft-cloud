@@ -6,7 +6,7 @@
             "value": ""
         },
         "sshKey": {
-            "value": ""
+            "value": "GEN-SSH-PUB-KEY"
         },
         "engineCfg" : {
             "value": ""
